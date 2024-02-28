@@ -1,0 +1,38 @@
+.conteiner {
+    width: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    position: relative;
+}
+
+.box-one {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8888;
+    z-index: 50;
+    margin-top: 50px;
+}
+
+.box-two {
+    width: 100px;
+    height: 100px;
+    background-color: #7e8aeb;
+    z-index: 100;
+    margin-top: 110px;
+    position: absolute;
+    left: 60px;
+}
+
+.box-three {
+    width: 100px;
+    height: 100px;
+    background-color: #4def99;
+    z-index: 80;
+    margin-top: 170px;
+    margin-left: 15px
+}
